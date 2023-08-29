@@ -10,10 +10,10 @@ import Entities.Gamer;
 public class Main {
 
 	public static void main(String[] args) {
-		Gamer gamer = new Gamer(1,"İkra","Özgirgin",2001,"37705997502");
-		Gamer gamer2 = new Gamer(2,"Tülay","Özkaya",1977,"47080684546");
+		Gamer gamer = new Gamer(1,"Ãkra","Ã–zgirgin",2001,"516464332");
+		Gamer gamer2 = new Gamer(2,"TÃ¼lay","Ã–zkaya",1977,"12587892");
 		Game game = new Game(1,"CS:GO",100);
-		Campaign campaign = new Campaign(1,"Öğrenci", 20);
+		Campaign campaign = new Campaign(1,"Ã–Ã°renci", 20);
 		
 		GamerManager gamerManager = new GamerManager(new MernisServiceAdapter());
 		gamerManager.save(gamer);
