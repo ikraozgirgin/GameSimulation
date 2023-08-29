@@ -11,7 +11,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		Gamer gamer = new Gamer(1,"Ýkra","Özgirgin",2001,"516464332");
-		Gamer gamer2 = new Gamer(2,"Tülay","Özkaya",1977,"12587892");
+		Gamer gamer2 = new Gamer(2,"Ali","Veli",2007,"12587892");
 		Game game = new Game(1,"CS:GO",100);
 		Campaign campaign = new Campaign(1,"Öðrenci", 20);
 		
